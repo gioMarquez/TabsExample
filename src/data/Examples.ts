@@ -55,24 +55,24 @@ export const dataTabsExample = [
       id: 0,
       title: "Hola Tecuamenso",
       contenido: "Supera tus limites aquí y ahora",
-      libro: "Yami Sukehiro"
+      autor: "Yami Sukehiro"
     },
     {
       id: 1,
       title: "Hola 2",
       contenido: "Caminante, no hay camino, se hace camino al andar.",
-      libro: "Antonio Machado"
+      autor: "Antonio Machado"
     },
     {
       id: 2,
       title: "Hola 3",
       contenido: "No hay más que un tiempo para la realización de las cosas, y ese tiempo es ahora.",
-      libro: "León Tolstói"
+      autor: "León Tolstói"
     },
     {
       id: 3,
       title: "Hola 4",
       contenido: "La verdadera medida de un hombre no se encuentra en cómo se comporta en momentos de comodidad y conveniencia, sino en cómo se mantiene en tiempos de controversia y desafío.",
-      libro: "Martin Luther King Jr."
+      autor: "Martin Luther King Jr."
     },
   ];

@@ -8,7 +8,7 @@ interface Tab {
   id: number;
   title: string;
   contenido: string;
-  libro: string;
+  autor: string;
 }
 
 const Tabs = ({ dataTabs }: TabsProps) => {
@@ -36,7 +36,7 @@ const Tabs = ({ dataTabs }: TabsProps) => {
           {dataTabs[selectedTab].title}
         </h2>
         <p>{dataTabs[selectedTab].contenido}</p>
-        <p>Autor: {dataTabs[selectedTab].libro}</p>
+        <p>Autor: {dataTabs[selectedTab].autor}</p>
       </div>
     </div>
   );
